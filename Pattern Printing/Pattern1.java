@@ -1,24 +1,23 @@
-public class Pattern1 {
-    // Function to print a square pattern of stars
-    public void pattern1(int N) {
-        // Outer loop to handle rows
-        for (int i = 0; i < N; i++) {
-            // Inner loop to handle columns for each row
-            for (int j = 0; j < N; j++) {
-                // Print a star followed by a space
-                System.out.print("* ");
+import java.util.*;;
+public class practice {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int row = sc.nextInt();
+        int column =sc. nextInt();
+        for (int i=0; i < row ; i++ ) {
+            for (int j =0;j <3 column ; j++ ) {
+                System.out.print('*');
             }
-            // After printing stars in a row, move to the next line
-            System.out.println();
+            System.out.println(""); // Move to the next line after each row
         }
+
+        }
+
     }
 
-    public static void main(String[] args) {
-        Pattern1 sol = new Pattern1();
-        int N = 5; // Set the size of the square (5x5)
-        sol.pattern1(N); // Call the function to print the pattern
-    }
-}
+
+
 /*
 
 output:
