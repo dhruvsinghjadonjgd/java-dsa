@@ -9,6 +9,7 @@ public class practice {
         for (int i=1; i < n+1 ; i++ ) {
             for (int j =0;j < n; j++ ) {
                 System.out.print((char)(j +65));
+                // System.out.print((char)(j +97)); for smaller letter
             }
             System.out.println(""); // Move to the next line after each row
         }
